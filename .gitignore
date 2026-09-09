@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated reports (keep templates and samples only)
+reports/*.md
+!reports/report_template.md
+!reports/sample_report.md
+reports/*.json
+
+# Credentials and secrets -- NEVER commit these
+*.pem
+*.key
+*.env
+.env
+credentials.json
+service-account*.json
