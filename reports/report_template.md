@@ -5,9 +5,9 @@
 {% if project_id %}**GCP Project:** {{ project_id }}{% endif %}
 {% if subscription_id %}**Azure Subscription:** {{ subscription_id }}{% endif %}
 {% if region %}**Region:** {{ region }}{% endif %}
-**Generated:** {{ timestamp }}
-**Tool:** [Cloud Security Audit Scripts](https://github.com/TrazTech-Inc/cloud-security-audit-scripts)
-**Maintained by:** [TrazTech]({{ traztech_url }}) -- Security & Compliance Consultancy, Toronto
+**Generated:** {{ timestamp }}  
+**Tool:** [Cloud Security Audit Scripts](https://github.com/TrazTech-Inc/cloud-security-audit-scripts)  
+**Maintained by:** [TrazTech]({{ traztech_url }}): Security & Compliance Consultancy, Toronto
 
 ---
 
@@ -71,6 +71,6 @@ professionals. For professional cloud security assessments, contact [TrazTech]({
 
 ## Resources
 
-- [TrazTech Cloud Security Posture Check]({{ posture_check_url }}) -- Free automated assessment
+- [TrazTech Cloud Security Posture Check]({{ posture_check_url }}): Free automated assessment
 - [TrazTech SOC 2 Readiness Checklist]({{ soc2_checklist_url }})
-- [TrazTech Blog]({{ traztech_url }}/blog) -- 100+ articles on cloud security and compliance
+- [TrazTech Blog]({{ traztech_url }}/blog): 100+ articles on cloud security and compliance

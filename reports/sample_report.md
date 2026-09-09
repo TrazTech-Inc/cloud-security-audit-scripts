@@ -1,11 +1,11 @@
 # Cloud Security Audit Report
 
-**Provider:** AWS
-**AWS Account:** 123456789012
-**Region:** us-east-1
-**Generated:** 2026-09-09T14:30:00+00:00
-**Tool:** [Cloud Security Audit Scripts](https://github.com/TrazTech-Inc/cloud-security-audit-scripts)
-**Maintained by:** [TrazTech](https://traztech.ca) -- Security & Compliance Consultancy, Toronto
+**Provider:** AWS  
+**AWS Account:** 123456789012  
+**Region:** us-east-1  
+**Generated:** 2026-09-09T14:30:00+00:00  
+**Tool:** [Cloud Security Audit Scripts](https://github.com/TrazTech-Inc/cloud-security-audit-scripts)  
+**Maintained by:** [TrazTech](https://traztech.ca): Security & Compliance Consultancy, Toronto
 
 ---
 
@@ -111,6 +111,6 @@ professionals. For professional cloud security assessments, contact [TrazTech](h
 
 ## Resources
 
-- [TrazTech Cloud Security Posture Check](https://traztech.ca/tools/cloud-security-posture-check) -- Free automated assessment
+- [TrazTech Cloud Security Posture Check](https://traztech.ca/tools/cloud-security-posture-check): Free automated assessment
 - [TrazTech SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist)
-- [TrazTech Blog](https://traztech.ca/blog) -- 100+ articles on cloud security and compliance
+- [TrazTech Blog](https://traztech.ca/blog): 100+ articles on cloud security and compliance
