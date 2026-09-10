@@ -63,6 +63,8 @@ Each provider script expects you to be authenticated via the standard CLI mechan
 
 ### AWS
 
+> **Note:** AWS audits run against the configured region. For multi-region environments, run the script once per region or use `--region` to target specific regions.
+
 ```bash
 # Full AWS audit
 python aws/aws_audit.py --profile production --output-format markdown --output-dir reports/
