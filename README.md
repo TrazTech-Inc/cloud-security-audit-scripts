@@ -169,6 +169,13 @@ All scripts perform **read-only** operations. No resources are created, modified
 - **GCP**: `roles/viewer` and `roles/iam.securityReviewer`
 - **Azure**: `Reader` role at subscription scope
 
+## See Also
+
+- [awesome-soc2](https://github.com/TrazTech-Inc/awesome-soc2) - Curated list of SOC 2 resources, tools, and guides.
+- [startup-security-policies](https://github.com/TrazTech-Inc/startup-security-policies) - 15 security policy templates mapped to SOC 2 and ISO 27001 controls.
+- [awesome-compliance-automation](https://github.com/TrazTech-Inc/awesome-compliance-automation) - 270+ compliance automation tools across all major frameworks.
+- [vendor-risk-assessment-toolkit](https://github.com/TrazTech-Inc/vendor-risk-assessment-toolkit) - Vendor risk assessment templates, scoring, and automation.
+
 ## Disclaimer
 
 These scripts are provided as-is for evidence collection and preliminary assessment. They do not constitute a formal audit or certification. Results should be reviewed by qualified security professionals. For professional cloud security assessments, SOC 2 readiness engagements, or ISO 27001 preparation, contact [TrazTech](https://traztech.ca).
