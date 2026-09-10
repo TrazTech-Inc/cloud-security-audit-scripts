@@ -7,7 +7,6 @@ botocore>=1.31.0
 
 # GCP
 google-cloud-storage>=2.10.0
-google-cloud-resource-manager>=1.10.0
 google-cloud-logging>=3.6.0
 google-cloud-kms>=2.19.0
 google-api-python-client>=2.100.0
@@ -16,7 +15,6 @@ google-auth>=2.22.0
 # Azure
 azure-identity>=1.14.0
 azure-mgmt-storage>=21.0.0
-azure-mgmt-compute>=30.0.0
 azure-mgmt-network>=25.0.0
 azure-mgmt-sql>=4.0.0
 azure-mgmt-keyvault>=10.2.0

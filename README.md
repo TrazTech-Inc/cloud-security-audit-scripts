@@ -124,15 +124,15 @@ Findings are mapped to **SOC 2 Trust Services Criteria** (2017) so you can cross
 
 | SOC 2 Criteria | Description | Script Checks |
 |----------------|-------------|---------------|
-| **CC6.1** | Logical access security | IAM policies, MFA, password policy, conditional access |
+| **CC6.1** | Logical access security | IAM policies, MFA, password policy, access keys |
 | **CC6.2** | Access provisioning/deprovisioning | Unused credentials, stale accounts, access key rotation |
 | **CC6.3** | Role-based access | Overly permissive policies, least privilege |
 | **CC6.6** | System boundaries | Security groups, firewall rules, NSGs, network segmentation |
 | **CC6.7** | Data transmission security | Encryption in transit, TLS enforcement, secure transfer |
-| **CC6.8** | Malicious software prevention | GuardDuty, Security Hub (planned) |
+| **CC6.8** | Malicious software prevention | Not yet implemented (GuardDuty, Security Hub planned) |
 | **CC7.1** | Detection mechanisms | CloudTrail, audit logs, activity logs, monitoring |
 | **CC7.2** | Monitoring activities | CloudWatch alarms, log sinks, diagnostic settings |
-| **CC8.1** | Change management | AWS Config, resource tagging, governance |
+| **CC8.1** | Change management | AWS Config, change tracking |
 | **A1.2** | Recovery mechanisms | Backups, versioning, multi-AZ, replication |
 
 For a complete SOC 2 readiness walkthrough, see the [TrazTech SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist).

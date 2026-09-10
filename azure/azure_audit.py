@@ -389,7 +389,7 @@ def check_sql_servers(subscription_id: str, credential, report: AuditReport) -> 
                         continue
                     try:
                         tde = client.transparent_data_encryptions.get(
-                            rg, name, db.name
+                            rg, name, db.name, "current"
                         )
                         tde_enabled = tde.status == "Enabled"
                         report.add_finding(Finding(
