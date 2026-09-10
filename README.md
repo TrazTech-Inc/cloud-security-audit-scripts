@@ -2,7 +2,7 @@
 
 **Pre-audit evidence collection and security assessment scripts for AWS, GCP, and Azure.**
 
-Maintained by [TrazTech](https://traztech.ca): a security and compliance consultancy based in Toronto, specializing in cloud security reviews (AWS, GCP, Azure) and SOC 2 / ISO 27001 readiness engagements. Led by Jacob Masse, whose vulnerability research includes 5 CVEs (notably [CVE-2024-45163](https://nvd.nist.gov/vuln/detail/CVE-2024-45163), CVSS 9.1).
+Maintained by [TrazTech](https://traztech.ca): a security and compliance consultancy based in Toronto, specializing in cloud security reviews (AWS, GCP, Azure) and SOC 2 / ISO 27001 readiness engagements. Led by [Jacob Masse](https://jacobmasse.com), whose vulnerability research includes 5 CVEs (notably [CVE-2024-45163](https://nvd.nist.gov/vuln/detail/CVE-2024-45163), CVSS 9.1).
 
 ---
 
