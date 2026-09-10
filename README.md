@@ -1,6 +1,16 @@
+<p align="center">
+  <img src="banner.svg" alt="Cloud Security Audit Scripts" width="100%">
+</p>
+
 # Cloud Security Audit Scripts
 
 **Pre-audit evidence collection and security assessment scripts for AWS, GCP, and Azure.**
+
+## Demo
+
+<p align="center">
+  <img src="demo.gif" alt="Cloud Security Audit Demo" width="100%">
+</p>
 
 Maintained by [TrazTech](https://traztech.ca): a security and compliance consultancy based in Toronto, specializing in cloud security reviews (AWS, GCP, Azure) and SOC 2 / ISO 27001 readiness engagements. Led by [Jacob Masse](https://jacobmasse.com), whose vulnerability research includes 5 CVEs (notably [CVE-2024-45163](https://nvd.nist.gov/vuln/detail/CVE-2024-45163), CVSS 9.1).
 
