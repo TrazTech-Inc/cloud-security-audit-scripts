@@ -83,6 +83,8 @@ python gcp/gcp_audit.py --project my-project-id --output-format markdown --outpu
 
 ### Azure
 
+> **Note:** Azure Entra ID (AAD) checks require the Azure CLI (`az`) to be installed and authenticated (`az login`), not just the Python SDK. The script shells out to `az ad` commands for Entra ID user enumeration and guest user checks.
+
 ```bash
 # Full Azure audit
 python azure/azure_audit.py --subscription <sub-id> --output-format markdown --output-dir reports/

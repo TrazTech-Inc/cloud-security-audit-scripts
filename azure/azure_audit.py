@@ -95,7 +95,6 @@ def check_nsgs(subscription_id: str, credential, report: AuditReport) -> None:
         client = mgmt_network.NetworkManagementClient(credential, subscription_id)
         nsgs = client.network_security_groups.list_all()
         found_open = False
-        found_default_deny = set()
 
         for nsg in nsgs:
             nsg_name = nsg.name
@@ -704,7 +703,7 @@ def check_entra_id(subscription_id: str, credential, report: AuditReport) -> Non
     try:
         result = subprocess.run(
             ["az", "ad", "user", "list", "--query", "[].{upn:userPrincipalName,accountEnabled:accountEnabled}", "-o", "json"],
-            capture_output=True, text=True, timeout=30,
+            capture_output=True, text=True, timeout=30, stdin=subprocess.DEVNULL,
         )
         if result.returncode == 0:
             import json
@@ -759,7 +758,7 @@ def check_entra_id(subscription_id: str, credential, report: AuditReport) -> Non
     try:
         result = subprocess.run(
             ["az", "ad", "user", "list", "--filter", "userType eq 'Guest'", "--query", "length(@)", "-o", "json"],
-            capture_output=True, text=True, timeout=30,
+            capture_output=True, text=True, timeout=30, stdin=subprocess.DEVNULL,
         )
         if result.returncode == 0:
             import json

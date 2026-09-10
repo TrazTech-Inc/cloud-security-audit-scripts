@@ -223,7 +223,7 @@ def check_unused_credentials(session: boto3.Session, report: AuditReport) -> Non
             pwd_last = row.get("password_last_used", "N/A")
             if pwd_last not in ("N/A", "no_information", "not_supported"):
                 try:
-                    last_used = datetime.fromisoformat(pwd_last.replace("Z", "+00:00").replace("+00:00", "+00:00"))
+                    last_used = datetime.fromisoformat(pwd_last.replace("Z", "+00:00"))
                     if (now - last_used) > threshold:
                         stale_users.append(f"{user} (password last used {pwd_last})")
                 except (ValueError, TypeError):
@@ -234,7 +234,7 @@ def check_unused_credentials(session: boto3.Session, report: AuditReport) -> Non
             ak1_last = row.get("access_key_1_last_used_date", "N/A")
             if ak1_active and ak1_last not in ("N/A", "no_information", "not_supported"):
                 try:
-                    last_used = datetime.fromisoformat(ak1_last.replace("Z", "+00:00").replace("+00:00", "+00:00"))
+                    last_used = datetime.fromisoformat(ak1_last.replace("Z", "+00:00"))
                     if (now - last_used) > threshold:
                         stale_users.append(f"{user} (access key 1 last used {ak1_last})")
                 except (ValueError, TypeError):
@@ -245,7 +245,7 @@ def check_unused_credentials(session: boto3.Session, report: AuditReport) -> Non
             ak2_last = row.get("access_key_2_last_used_date", "N/A")
             if ak2_active and ak2_last not in ("N/A", "no_information", "not_supported"):
                 try:
-                    last_used = datetime.fromisoformat(ak2_last.replace("Z", "+00:00").replace("+00:00", "+00:00"))
+                    last_used = datetime.fromisoformat(ak2_last.replace("Z", "+00:00"))
                     if (now - last_used) > threshold:
                         stale_users.append(f"{user} (access key 2 last used {ak2_last})")
                 except (ValueError, TypeError):
