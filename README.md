@@ -129,7 +129,7 @@ Findings are mapped to **SOC 2 Trust Services Criteria** (2017) so you can cross
 | **CC6.3** | Role-based access | Overly permissive policies, least privilege |
 | **CC6.6** | System boundaries | Security groups, firewall rules, NSGs, network segmentation |
 | **CC6.7** | Data transmission security | Encryption in transit, TLS enforcement, secure transfer |
-| **CC6.8** | Malicious software prevention | Security posture services, threat detection |
+| **CC6.8** | Malicious software prevention | GuardDuty, Security Hub (planned) |
 | **CC7.1** | Detection mechanisms | CloudTrail, audit logs, activity logs, monitoring |
 | **CC7.2** | Monitoring activities | CloudWatch alarms, log sinks, diagnostic settings |
 | **CC8.1** | Change management | AWS Config, resource tagging, governance |
